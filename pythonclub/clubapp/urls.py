@@ -11,5 +11,7 @@ urlpatterns=[
     path('newminutes/', views.newminutes, name='newminutes'),
     path('newresource/', views.newresource, name='newresource'),
     path('newevent/', views.newevent, name='newevent'),
+    path('loginmessage/', views.loginMessage, name='loginmessage'),
+    path('logoutmessage/', views.logoutMessage, name='logoutmessage'),
 
 ]
